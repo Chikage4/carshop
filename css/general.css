@@ -104,3 +104,8 @@ table {
 #sample_paragraph{
     clear: both;
 }
+
+#home_photo{
+  max-width :450px;
+  width: 100%;
+}
