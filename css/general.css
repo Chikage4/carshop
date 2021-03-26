@@ -1,0 +1,106 @@
+/*div {
+   text-decoration: underline;
+}*/
+
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main_link {
+     color: black;
+     background-color: aquamarine;
+     text-decoration: none;
+}
+
+#current_page {
+   background-color: cornflowerblue;
+}
+
+div span {
+  background-color: yellow;
+}
+
+.main_link:hover {
+   background-color: yellow;
+}
+#password:active {
+    background-color: yellow;
+}
+
+#website_header {
+  color: maroon;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 3px 3px 0px yellow;
+  text-indent: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+ul > li {
+   list-style-type: square;
+}
+
+body > ol > li {
+  /* list-style-type: lower-roman;
+   list-style-position: inside;*/
+   list-style: url("../image/blue_dot.png") circle inside;
+}
+
+.main_link:visited {
+    color: black;
+}
+
+.about_us_photo {
+    background-color:rgb(251, 234, 240);
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-attachment: scroll;
+    background-size: 350px 250px;
+    padding:  50px;
+    margin: 50px;
+    border: 5px solid red;
+    /*border-radius: 350px;*/
+    overflow: hidden;
+    box-sizing: content-box;
+    box-shadow: 20px 20px 4px yellow;
+    display: inline-block;
+    
+}
+
+#photo1 {
+   /*background-image: url("../image/maintaning.jpg");*/
+   background: rgb(24, 234, 240) url("../image/maintaning.jpg") no-repeat 0px 0px;
+   left: 200px;
+   top: 50px;
+   z-index: -1;
+}
+#photo2 {
+  background-image: url("../image/mazuda.jpg");
+  z-index: -2;
+}
+#photo3 {
+  background-image: url("../image/toyota.jpg");
+}
+#photo4 {
+  background-image: url("../image/suzuki.jpg");
+}
+
+
+table {
+  empty-cells: show;
+  border-spacing: 20px 30px;
+  border-collapse: collapse;
+}
+
+#aphoto{
+  float: right;
+}
+
+#sample_paragraph{
+    clear: both;
+}
